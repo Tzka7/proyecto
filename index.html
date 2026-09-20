@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraná Broker | Tu aliado de confianza</title>
+    
+    <!-- Forzamos la actualización del CSS agregando versión comercial -->
+    <link rel="stylesheet" href="styles.css?v=2">
+    
+    <!-- Fuentes de Google e Íconos (FontAwesome) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Pantalla de Carga (Preloader) con tu Logo -->
+    <div id="preloader">
+        <img src="LOGO PARANA FB (2).png" alt="Logo Paraná Broker" class="loader-logo-img">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- BOTONES FLOTANTES BLINDADOS -->
+    <a href="https://wa.me/595984099366" target="_blank" title="Escribir por WhatsApp" 
+       style="position: fixed !important; bottom: 20px !important; right: 20px !important; background-color: #25d366 !important; color: #FFF !important; border-radius: 50% !important; width: 60px !important; height: 60px !important; display: flex !important; justify-content: center !important; align-items: center !important; font-size: 32px !important; box-shadow: 2px 2px 12px rgba(0,0,0,0.2) !important; z-index: 900 !important; text-decoration: none !important;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="tel:+595984099366" title="Llamar ahora" 
+       style="position: fixed !important; bottom: 20px !important; left: 20px !important; background-color: #0A2A5E !important; color: #FFF !important; border-radius: 50% !important; width: 60px !important; height: 60px !important; display: flex !important; justify-content: center !important; align-items: center !important; font-size: 26px !important; box-shadow: 2px 2px 12px rgba(0,0,0,0.2) !important; z-index: 900 !important; text-decoration: none !important;">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <!-- Barra de Navegación Superior (Header) -->
+    <header id="header">
+        <a href="#inicio" class="logo">
+            <img src="LOGO PARANA FB (2).png" alt="Logo Paraná Broker">
+            <span class="logo-text">Paraná Broker</span>
+        </a>
+        <nav>
+            <a href="#contacto" class="btn-nav CTA-pulse">Cotizar Seguro Ahora</a>
+        </nav>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1><span id="typewriter"></span><span class="cursor">|</span></h1>
+            <p class="fade-up">Deja tus datos y un asesor experto se contactará contigo en tiempo récord con la mejor cotización para proteger tu patrimonio.</p>
+            <a href="#contacto" class="btn-primary fade-up CTA-giant" style="transition-delay: 0.3s;">Quiero mi cotización gratuita</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Carrusel Infinito de Aseguradoras Aliadas -->
+    <div class="brands-section">
+        <p class="text-center" style="color: #888; font-size: 0.9rem; margin-bottom: 15px; font-weight: 600;">Respaldados por las mejores aseguradoras del país</p>
+        <div class="brands-carousel">
+            <div class="brands-track">
+                <h3><i class="fas fa-shield-alt"></i> Tajy</h3>
+                <h3><i class="fas fa-umbrella"></i> Mapfre</h3>
+                <h3><i class="fas fa-car-crash"></i> Sancor</h3>
+                <h3><i class="fas fa-home"></i> Yacyretá</h3>
+                <h3><i class="fas fa-building"></i> La Consolidada</h3>
+                <h3><i class="fas fa-shield-alt"></i> Tajy</h3>
+                <h3><i class="fas fa-umbrella"></i> Mapfre</h3>
+                <h3><i class="fas fa-car-crash"></i> Sancor</h3>
+                <h3><i class="fas fa-home"></i> Yacyretá</h3>
+                <h3><i class="fas fa-building"></i> La Consolidada</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Coberturas Dinámicas Inteligentes -->
+    <section id="coberturas" class="container">
+        <h2 class="text-center fade-in" style="color: var(--primary);">Nuestras Coberturas Principales</h2>
+        <p class="text-center fade-in" style="margin-bottom: 40px; color: #555;">Soluciones a tu medida. Explora nuestros seguros diseñados para tu total tranquilidad.</p>
+
+        <div class="tabs-menu fade-up">
+            <button class="tab-btn active" data-target="tab-auto"><i class="fas fa-car"></i> Automotor</button>
+            <button class="tab-btn" data-target="tab-hogar"><i class="fas fa-home"></i> Hogar</button>
+            <button class="tab-btn" data-target="tab-comercio"><i class="fas fa-store"></i> Comercio</button>
+            <button class="tab-btn" data-target="tab-agro"><i class="fas fa-tractor"></i> Agro</button>
+            <button class="tab-btn" data-target="tab-vida"><i class="fas fa-heartbeat"></i> Vida</button>
+        </div>
+
+        <div class="tabs-container fade-up">
+            <!-- CONTENIDO 1: AUTO -->
+            <div class="tab-panel active" id="tab-auto">
+                <div class="panel-content">
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800" alt="Seguro Automotor">
+                    <div class="panel-text">
+                        <h3>Seguro Automotor</h3>
+                        <p>Protección total para tu vehículo. Te ofrecemos cobertura contra todo riesgo, robo, incendio y responsabilidad civil para que manejes sin preocupaciones.</p>
+                        <ul class="panel-lista">
+                            <li><i class="fas fa-check-circle"></i> Asistencia de grúa en ruta 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> Cobertura internacional (Mercosur)</li>
+                            <li><i class="fas fa-check-circle"></i> Reposición a nuevo de cristales y cerraduras</li>
+                        </ul>
+                        <a href="#contacto" class="btn-primary">Cotizar Seguro de Auto</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENIDO 2: HOGAR -->
+            <div class="tab-panel" id="tab-hogar">
+                <div class="panel-content">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800" alt="Seguro de Hogar">
+                    <div class="panel-text">
+                        <h3>Seguro de Hogar</h3>
+                        <p>Tu refugio seguro. Protegemos tu casa o departamento ante cualquier eventualidad, desde daños climáticos accidentales hasta robos.</p>
+                        <ul class="panel-lista">
+                            <li><i class="fas fa-check-circle"></i> Cobertura completa contra incendios y rayos</li>
+                            <li><i class="fas fa-check-circle"></i> Robo de electrodomésticos, tecnología y bienes</li>
+                            <li><i class="fas fa-check-circle"></i> Asistencia domiciliaria de urgencia (Plomería/Cerrajería)</li>
+                        </ul>
+                        <a href="#contacto" class="btn-primary">Cotizar Seguro de Hogar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENIDO 3: COMERCIO -->
+            <div class="tab-panel" id="tab-comercio">
+                <div class="panel-content">
+                    <img src="https://comercialtrevino.com/images/uploads/acomodo-de-tienda-de-abarrotes.jpg" alt="Seguro Comercial">
+                    <div class="panel-text">
+                        <h3>Seguro para Comercio</h3>
+                        <p>El respaldo que tu negocio necesita. Aseguramos tu local físico, mercaderías valiosas y la tranquilidad de tus empleados para que tu empresa nunca se detenga.</p>
+                        <ul class="panel-lista">
+                            <li><i class="fas fa-check-circle"></i> Responsabilidad Civil Civil y Comercial</li>
+                            <li><i class="fas fa-check-circle"></i> Cobertura por rotura accidental de maquinarias o cristales</li>
+                            <li><i class="fas fa-check-circle"></i> Seguros de caución y garantías adaptadas</li>
+                        </ul>
+                        <a href="#contacto" class="btn-primary">Asegurar mi Negocio</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENIDO 4: AGRO -->
+            <div class="tab-panel" id="tab-agro">
+                <div class="panel-content">
+                    <img src="https://cerradocase.com.br/wp-content/uploads/2023/12/colheita-de-soja-1.jpg " alt="Seguro Agropecuario">
+                    <div class="panel-text">
+                        <h3>Seguro Agropecuario</h3>
+                        <p>Cuidamos el fruto de tu gran esfuerzo. Pólizas diseñadas específicamente para el sector productivo y agropecuario de nuestra región.</p>
+                        <ul class="panel-lista">
+                            <li><i class="fas fa-check-circle"></i> Cobertura climática contra granizo, tormentas y heladas</li>
+                            <li><i class="fas fa-check-circle"></i> Seguros especializados para maquinaria agrícola pesada</li>
+                            <li><i class="fas fa-check-circle"></i> Protección integral de ganado y silobolsas</li>
+                        </ul>
+                        <a href="#contacto" class="btn-primary">Consultar por Agro</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENIDO 5: VIDA -->
+            <div class="tab-panel" id="tab-vida">
+                <div class="panel-content">
+                    <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800" alt="Seguro de Vida">
+                    <div class="panel-text">
+                        <h3>Seguro de Vida y Accidentes</h3>
+                        <p>La estabilidad de los que más amas no tiene precio. Mantén la seguridad financiera y el respaldo médico familiar ante cualquier imprevisto de la vida.</p>
+                        <ul class="panel-lista">
+                            <li><i class="fas fa-check-circle"></i> Cobertura completa por fallecimiento e invalidez</li>
+                            <li><i class="fas fa-check-circle"></i> Seguro de Accidentes Personales (AP) ideal para trabajadores</li>
+                            <li><i class="fas fa-check-circle"></i> Respaldo económico de renta diaria por hospitalización</li>
+                        </ul>
+                        <a href="#contacto" class="btn-primary">Cuidar a mi Familia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros (CON DISEÑO CORREGIDO) -->
+    <section id="nosotros" class="container">
+        <div class="nosotros-content fade-up">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800" alt="Equipo Paraná Broker" class="nosotros-img">
+            <div class="nosotros-text">
+                <h2 style="color: var(--primary);">Conoce a Paraná Broker</h2>
+                <p>Somos un equipo de profesionales apasionados por proteger lo que más valoras. Con años de experiencia en el mercado asegurador, nuestro objetivo no es solo emitir una póliza, sino convertirnos en tu aliado estratégico y asesor de confianza.</p>
+                <p>Creemos firmemente en la atención personalizada, la transparencia en cada cláusula y, sobre todo, en la respuesta rápida y efectiva cuando más nos necesitas. Tu tranquilidad es nuestro mayor éxito.</p>
+                <a href="#contacto" class="btn-primary" style="margin-top: 15px;">Hablar con un asesor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Estadísticas Animadas -->
+    <section id="estadisticas" class="stats-section bg-light">
+        <div class="container stats-grid">
+            <div class="stat-box fade-up">
+                <i class="fas fa-users"></i>
+                <h3 class="counter" data-target="5000">0</h3>
+                <p>Clientes Protegidos</p>
+            </div>
+            <div class="stat-box fade-up" style="transition-delay: 0.2s;">
+                <i class="fas fa-calendar-check"></i>
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Años de Experiencia</p>
+            </div>
+            <div class="stat-box fade-up" style="transition-delay: 0.4s;">
+                <i class="fas fa-handshake"></i>
+                <h3 class="counter" data-target="20">0</h3>
+                <p>Aseguradoras Aliadas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="container text-center">
+        <h2 class="fade-in">Lo que dicen nuestros clientes</h2>
+        <div class="services-grid" style="margin-top: 30px;">
+            <div class="card fade-up">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"Tuve un siniestro con mi auto y la respuesta de Paraná Broker fue inmediata. Me solucionaron todo el papeleo rápido."</p>
+                <h4>- Carlos M., Encarnación</h4>
+            </div>
+            <div class="card fade-up" style="transition-delay: 0.2s;">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"Excelente asesoría para asegurar mi negocio comercial. Me explicaron cada cláusula de la póliza con paciencia."</p>
+                <h4>- Laura G., Asunción</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes (FAQ) -->
+    <section id="faq" class="container bg-light" style="border-radius: 20px; padding: 60px 20px;">
+        <h2 class="text-center fade-in" style="color: var(--primary); margin-bottom: 30px;">Preguntas Frecuentes</h2>
+        <div class="faq-container fade-up">
+            <div class="faq-item">
+                <button class="faq-question">¿Cuánto tarda en emitirse mi póliza? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>En la mayoría de los casos de seguro automotor u hogar, podemos emitir una cobertura provisoria válida en menos de 2 horas tras recibir tus documentos mínimos.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Tiene algún costo extra usar el broker? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>¡No, en absoluto! Nuestro servicio de asesoramiento profesional y gestión comercial es 100% gratuito para ti. Las aseguradoras nos pagan directamente.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Qué hago si tengo un accidente o siniestro? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Solo debes comunicarte de inmediato con nosotros por WhatsApp. Te guiaremos paso a paso, coordinaremos el servicio de grúa y realizaremos la denuncia formal.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto, Formulario y Mapa (CON SUCURSALES AGREGADAS) -->
+    <section id="contacto" class="container" style="margin-bottom: 50px;">
+        <div class="contact-wrapper fade-in">
+            <div class="contact-info">
+                <h2 style="color: var(--primary);">Invierte en tu tranquilidad hoy</h2>
+                
+                <div style="margin-bottom: 20px;">
+                    <!-- Casa Matriz -->
+                    <p style="font-weight: 600; margin-bottom: 2px; color: var(--primary);">
+                        <i class="fas fa-building" style="width: 25px; color: var(--secondary);"></i> Casa Matriz - Encarnación
+                    </p>
+                    <p style="margin-left: 28px; margin-bottom: 15px; font-size: 0.95rem;">
+                        Honorio González esq. Gral. Cabañas
+                    </p>
+                
+                    <!-- Sucursal -->
+                    <p style="font-weight: 600; margin-bottom: 2px; color: var(--primary);">
+                        <i class="fas fa-city" style="width: 25px; color: var(--secondary);"></i> Sucursal - Asunción
+                    </p>
+                    <p style="margin-left: 28px; margin-bottom: 15px; font-size: 0.95rem;">
+                        P94J+4C9, Mayor Fleitas, Asunción 001224
+                    </p>
+                </div>
+                
+                <p><i class="fas fa-phone-alt"></i> +595 984 099 366</p>
+                
+                <div class="map-container" style="margin-top: 20px;">
+                    <iframe src="https://maps.google.com/maps?q=Honorio%20Gonz%C3%A1lez%20esq.%20Gral.%20Caba%C3%B1as,%20Encarnaci%C3%B3n,%20Paraguay&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+            <div class="glass-form text-center">
+                <h3 style="color: var(--primary); margin-bottom: 10px; font-size: 1.8rem;">¡Hablemos hoy!</h3>
+                <p style="margin-bottom: 25px; color: #555;">Déjanos tus datos básicos y un asesor comercial te contactará de inmediato.</p>
+                
+                <form id="contactForm">
+                    <input type="text" id="nombre" placeholder="Tu Nombre y Apellido" required>
+                    <input type="tel" id="telefono" placeholder="Tu Número de Celular" required>
+                    <select id="seguro" required>
+                        <option value="" disabled selected>¿Qué necesitas asegurar?</option>
+                        <option value="Automotor">Mi Vehículo (Auto/Moto)</option>
+                        <option value="Hogar">Mi Casa / Departamento</option>
+                        <option value="Comercio">Mi Negocio / Comercio</option>
+                        <option value="Agro">Campo / Maquinaria Agrícola</option>
+                        <option value="Vida">Seguro de Vida / Accidentes</option>
+                    </select>
+                    <button type="submit" class="btn-primary CTA-giant" style="width: 100%; font-size: 1.1rem; padding: 15px;">Solicitar Asesoría Ya</button>
+                </form>
+                <p style="margin-top: 15px; font-size: 0.8rem; color: #888;"><i class="fas fa-lock"></i> Tus datos ingresados están 100% seguros y protegidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer con Redes Sociales -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 Paraná Broker de Seguros. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1Di2ifRud7/?mibextid=wwXIfr" target="_blank" title="Síguenos en Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/paranabroker" target="_blank" title="Síguenos en Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>
